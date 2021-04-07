@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linyoujie.github.io</id>
     <title>Tom - Github.io</title>
-    <updated>2021-04-07T18:47:51.720Z</updated>
+    <updated>2021-04-07T18:57:55.288Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linyoujie.github.io"/>
     <link rel="self" href="https://linyoujie.github.io/atom.xml"/>
@@ -15,13 +15,13 @@
         <id>https://linyoujie.github.io/post/easy-way-to-setup-a-github-pages/</id>
         <link href="https://linyoujie.github.io/post/easy-way-to-setup-a-github-pages/">
         </link>
-        <updated>2021-04-07T06:43:57.000Z</updated>
-        <summary type="html"><![CDATA[<p>##Create a repository<br>
-Head over to GitHub and create a new public repository named <em>username</em>.github.io, where <em>username</em> is your <em>username</em> (or organization name) on GitHub.</p>
+        <updated>2021-04-06T18:43:57.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="create-a-repository">Create a repository</h1>
+<p>Head over to GitHub and create a new public repository named <em>username</em>.github.io, where <em>username</em> is your <em>username</em> (or organization name) on GitHub.</p>
 <p>If the first part of the repository doesn’t exactly match your <em>username</em>, it won’t work, so make sure to get it right.</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>##Create a repository<br>
-Head over to GitHub and create a new public repository named <em>username</em>.github.io, where <em>username</em> is your <em>username</em> (or organization name) on GitHub.</p>
+        <content type="html"><![CDATA[<h1 id="create-a-repository">Create a repository</h1>
+<p>Head over to GitHub and create a new public repository named <em>username</em>.github.io, where <em>username</em> is your <em>username</em> (or organization name) on GitHub.</p>
 <p>If the first part of the repository doesn’t exactly match your <em>username</em>, it won’t work, so make sure to get it right.</p>
 ]]></content>
     </entry>
@@ -30,7 +30,7 @@ Head over to GitHub and create a new public repository named <em>username</em>.g
         <id>https://linyoujie.github.io/post/fen-xiang/</id>
         <link href="https://linyoujie.github.io/post/fen-xiang/">
         </link>
-        <updated>2021-04-02T07:28:02.000Z</updated>
+        <updated>2021-04-01T19:28:02.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
