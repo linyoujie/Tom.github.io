@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linyoujie.github.io</id>
     <title>Tom - Github.io</title>
-    <updated>2021-04-07T16:45:11.106Z</updated>
+    <updated>2021-04-07T18:47:51.720Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linyoujie.github.io"/>
     <link rel="self" href="https://linyoujie.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://linyoujie.github.io/images/avatar.png</logo>
     <icon>https://linyoujie.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Tom - Github.io</rights>
+    <entry>
+        <title type="html"><![CDATA[Easy way to setup a GitHub Pages]]></title>
+        <id>https://linyoujie.github.io/post/easy-way-to-setup-a-github-pages/</id>
+        <link href="https://linyoujie.github.io/post/easy-way-to-setup-a-github-pages/">
+        </link>
+        <updated>2021-04-07T06:43:57.000Z</updated>
+        <summary type="html"><![CDATA[<p>##Create a repository<br>
+Head over to GitHub and create a new public repository named <em>username</em>.github.io, where <em>username</em> is your <em>username</em> (or organization name) on GitHub.</p>
+<p>If the first part of the repository doesn’t exactly match your <em>username</em>, it won’t work, so make sure to get it right.</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>##Create a repository<br>
+Head over to GitHub and create a new public repository named <em>username</em>.github.io, where <em>username</em> is your <em>username</em> (or organization name) on GitHub.</p>
+<p>If the first part of the repository doesn’t exactly match your <em>username</em>, it won’t work, so make sure to get it right.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Share a picture]]></title>
         <id>https://linyoujie.github.io/post/fen-xiang/</id>
