@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://linyoujie.github.io</id>
     <title>Tom - Github.io</title>
-    <updated>2021-04-07T22:15:05.954Z</updated>
+    <updated>2021-04-07T22:18:24.252Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://linyoujie.github.io"/>
+    <link rel="self" href="https://linyoujie.github.io/atom.xml"/>
     <subtitle>Tom&apos;s Blog</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://linyoujie.github.io/images/avatar.png</logo>
+    <icon>https://linyoujie.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Tom - Github.io</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://localhost:4000/post/hello-gridea/</id>
-        <link href="http://localhost:4000/post/hello-gridea/">
+        <id>https://linyoujie.github.io/post/hello-gridea/</id>
+        <link href="https://linyoujie.github.io/post/hello-gridea/">
         </link>
         <updated>2021-12-06T18:00:00.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="css-loading-problem">CSS Loading problem</h2>
@@ -25,8 +25,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Easy way to setup a GitHub Pages]]></title>
-        <id>http://localhost:4000/post/easy-way-to-setup-a-github-pages/</id>
-        <link href="http://localhost:4000/post/easy-way-to-setup-a-github-pages/">
+        <id>https://linyoujie.github.io/post/easy-way-to-setup-a-github-pages/</id>
+        <link href="https://linyoujie.github.io/post/easy-way-to-setup-a-github-pages/">
         </link>
         <updated>2021-04-05T18:43:57.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="create-a-repository">Create a repository</h1>
@@ -40,8 +40,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Share a picture]]></title>
-        <id>http://localhost:4000/post/fen-xiang/</id>
-        <link href="http://localhost:4000/post/fen-xiang/">
+        <id>https://linyoujie.github.io/post/fen-xiang/</id>
+        <link href="https://linyoujie.github.io/post/fen-xiang/">
         </link>
         <updated>2021-03-31T07:28:02.000Z</updated>
         <summary type="html"><![CDATA[<p>Hello Bloggers.</p>
