@@ -79,8 +79,8 @@
         });
 
         // Custom Select and filters
-		$('#header div.menu-mobile').on('click', function(){
-			$('#header').toggleClass('menu-open');
+		$("#sidebar—function").on('click', function(){
+			$('#sidebar—function').toggleClass('full-height');
 		});
 		$('.filters select').change(function(){
 			var url = $(this).val();

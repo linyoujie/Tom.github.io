@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>我的观影 | Tom - Github.io</title>
-<meta name="description" content="A simple site about Tom" />
+<meta name="description" content="Tom's Blog" />
 <link rel="shortcut icon" href="https://linyoujie.github.io/favicon.ico">
 <link rel="stylesheet" href="https://linyoujie.github.io/styles/main.css">
 
@@ -23,74 +23,65 @@
     <!-- start: #wrapper -->
     <div class="wrapper">
       
-            <header id="header" class="grid-container">
-        <!-- start: .menu-wrapper -->
-        
-        <div class="menu-mobile"> 
-          <i class="fa fa-reorder"></i>
-        </div>
-        <div class="menu-wrapper">
-          <div class="">
-            <div class="logo">
-              <a href="https://linyoujie.github.io"><img src="\media\images\custom-headerLogo.exe" alt=""></a>
-            </div>
-            <!-- start: .main-nav -->
-
-            <nav class="main-nav grid-container grid-parent">
-              <ul id="menu-header" class="menu gradient-effect">
-                <li class=""><a href="https://linyoujie.github.io" class="menu">Home</a></li>
-                
-                  <li class="" >
-                    <a href="/archives" class="menu">
-                      Archive
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/tags" class="menu">
-                      Tags
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/post/about" class="menu">
-                      About
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/photos" class="menu">
-                      Photo
-                    </a>
-                  </li>
-                
-                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
-              </ul>
-            </nav>
-
-            
-            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
-            <!-- end: .main-nav -->
-            <div class="clear"></div>
-            <div class="border hide-on-tablet hide-on-mobile"></div>
-          </div>    
-          <div class="clear"></div>
-        </div>
-        <!-- end: .menu-wrapper -->
-        <div class="clear"></div>
-      </header>
-      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
-        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
-          <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1617670826704" action="/search/index.html" class="search-form" _lpchecked="1">
-              <input type="text" name="q" id="s" value="" class="search-field" placeholder="Find..." aria-label="Find..." required="">
-              <button type="submit" class="submit" aria-label="Submit">
-                <i class="fa fa-search-line"></i>
-              </button>
-            </form>
-          </div>
-        </div>
+      <div class="sidebar" id='sidebar—function' :class="{ 'full-height': menuVisible }">
+  <div class="top-container" >
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://linyoujie.github.io">
+        <img src="https://linyoujie.github.io/images/avatar.png?v=1617813901515" class="site-logo">
+        <h1 class="site-title">Tom - Github.io</h1>
+      </a>
+      <div class="menu-btn"  @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
+    </div>
+    <div>
+      <a href="https://linyoujie.github.io" class="site-nav">
+        Home
+      </a>
+      
+        
+          <a href="/archives" class="site-nav">
+            Archive
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            Tags
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            About
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Tom's Blog
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://linyoujie.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
 
       <main id="friends" class="main fullcover no-sidebar content">
         <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
@@ -175,7 +166,7 @@
                   </div>
                   <div class="info">
                     <h4 class="title small author-name gradient-effect no-margin"><a href="">Tom - Github.io</a></h4>
-                    <p class="founder">A simple site about Tom</p>
+                    <p class="founder">Tom&#39;s Blog</p>
                     <div class="social">
                       
                         
