@@ -3323,7 +3323,8 @@ hr {
 }
 .grid-container {
   max-width: 1064px;
-  margin-left: 320px;
+  padding-left: unset;
+  margin-left: 30%;
 }
 .grid-container.grid-usmall {
   max-width: 600px;
@@ -4536,6 +4537,18 @@ div.text .wp-block-table {
 }
 #footer a#back-to-top i.fa {
   margin: 0;
+}
+#footer div#back-to-top {
+  position: fixed;
+  right: 7%;
+  bottom: 10%;
+  z-index: 99;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0;
 }
 #footer .post .thumb {
   min-height: 80px;
@@ -6219,8 +6232,8 @@ div.code-toolbar > .toolbar span:hover {
     height: auto;
   }
   .grid-container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 25%;
+    margin-left: unset;
   }
   #header .logo {
     float: none;
@@ -6994,6 +7007,22 @@ div.code-toolbar > .toolbar span:hover {
     margin-bottom: 12.8px;
   }
   /* @end */
+}
+@media screen and (max-width: 1600px) {
+  .hide-on-desktop-sm {
+    display: none !important;
+  }
+  body {
+    min-width: inherit;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .grid-container {
+    padding-left: 27%;
+    margin-left: unset;
+  }
 }
 /*------------------------------------*\
           SETTINGS
@@ -9626,7 +9655,7 @@ photos .photo:last-child {
 }
 /*导航边栏 改版*/
 .sidebar {
-  width: 320px;
+  width: 25%;
   position: fixed;
   left: 0;
   top: 0;
@@ -9680,10 +9709,10 @@ photos .photo:last-child {
   color: #fff;
 }
 /*导航边栏 手机 改版*/
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .grid-container {
     max-width: 100%;
-    margin-left: unset;
+    padding-left: 20px;
   }
   .sidebar {
     position: relative;
